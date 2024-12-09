@@ -10,9 +10,9 @@
     -   [CAZAUBON Lorenz *ROB4*](https://github.com/Templatew): **C++** 
     -   [PERDREAU Robin *ROB4*](https://github.com/BlackJackGeary83): **Blender**
     -   Extra Help:
-        -   KOMARYAN Vahan *ROB4*
-        -   LEROY Loïc *ROB4*
-        -   MAUVOISIN Paul *ROB4*
+        -   _KOMARYAN Vahan *ROB4*_
+        -   _LEROY Loïc *ROB4*_
+        -   _MAUVOISIN Paul *ROB4*_
 
 -   **Software Versions:**
     - **Blender: *4.3.0***
