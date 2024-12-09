@@ -1,0 +1,179 @@
+#
+# https://github.com/ToruNiina/toml11?tab=readme-ov-file
+#
+[info]
+  robot_name = 'Kinova Gen3 6DF with vision'
+  root_path =  '../meshes/6dof'
+
+
+[[links]]
+  name = 'L00.Base'
+  path = 'meshes/base_link.stl'
+[[links]]
+  name = 'L01.Shoulder'
+  path = 'meshes/shoulder_link.stl'
+[[links]]
+  name = 'L02.Bicep'
+  path = 'meshes/bicep_link.stl'
+[[links]]
+  name = 'L03.Forearm'
+  path = 'meshes/forearm_link.stl'
+[[links]]
+  name = 'L04.Wrist1'
+  path = 'meshes/spherical_wrist_1_link.stl'
+[[links]]
+  name = 'L05.Wrist2'
+  path = 'meshes/spherical_wrist_2_link.stl'
+[[links]]
+  name = 'L06.Camera'
+  path = 'meshes/bracelet_with_vision_link.stl'
+[[links]]
+  name = 'L07.Effector'
+  path = 'gripper_meshes/gripper_base_link.stl'
+  istarget = 1
+[[links]]
+  name = 'L08.LeftFinger'
+  path = 'gripper_meshes/left_finger_prox_link.stl'
+[[links]]
+  name = 'L09.LeftFingerEnd'
+  path = 'gripper_meshes/left_finger_dist_link.stl'
+[[links]]
+  name = 'L10.RightFinger'
+  path = 'gripper_meshes/right_finger_prox_link.stl'
+[[links]]
+  name = 'L11.RightFingerEnd'
+  path = 'gripper_meshes/right_finger_dist_link.stl'
+
+
+[[joints]]
+  name = 'J00'
+  type = 'continuous'
+  parent = 'L00.Base'
+  child = 'L01.Shoulder'
+  xyz = [ 0, 0, 0.15643 ]
+  rpy = [-3.141594, 0, 0]
+  axis = [0, 0, 1]
+  angle_min = 0
+  angle_max = 0
+  angle_default = 0
+
+[[joints]]
+  name = 'J01'
+  type = 'revolute'
+  parent = 'L01.Shoulder'
+  child = 'L02.Bicep'
+  xyz = [ 0, 0.005375, -0.12838]
+  rpy = [ 1.5708, 0, 0]
+  axis = [0, 0, 1]
+  angle_min = -2.41
+  angle_max = 2.41
+  angle_default = 0
+
+
+[[joints]]
+  name = 'J02'
+  type = 'revolute'
+  parent = 'L02.Bicep'
+  child = 'L03.Forearm'
+  xyz = [ 0, -0.41, 0]
+  rpy = [ 3.141594, 0, 0]
+  axis = [0, 0, 1]
+  angle_min = -2.66
+  angle_max = 2.66
+  angle_default = 0
+
+[[joints]]
+  name = 'J03'
+  type = 'continuous'
+  parent = 'L03.Forearm'
+  child = 'L04.Wrist1'
+  xyz = [ 0, 0.20843, -0.006375]
+  rpy = [ 1.5708, 0, 0]
+  axis = [0, 0, 1]
+  angle_min = 0
+  angle_max = 0
+  angle_default = 0
+
+[[joints]]
+  name = 'J04'
+  type = 'revolute'
+  parent = 'L04.Wrist1'
+  child = 'L05.Wrist2'
+  xyz = [ 0, -0.00017505, -0.10593]
+  rpy = [ -1.5708, 0, 0]
+  axis = [0, 0, 1]
+  angle_min = -2.23
+  angle_max = 2.23
+  angle_default = 0
+
+[[joints]]
+  name = 'J05'
+  type = 'continuous'
+  parent = 'L05.Wrist2'
+  child = 'L06.Camera'
+  xyz = [ 0, 0.10593, -0.00017505]
+  rpy = [ 1.5708, 0, 0]
+  axis = [0, 0, 1]
+  angle_min = 0
+  angle_max = 0
+  angle_default = 0
+
+[[joints]]
+  name = 'J06'
+  type = 'fixed'
+  parent = 'L06.Camera'
+  child = 'L07.Effector'
+  xyz = [ 0, 0, -0.061525 ]
+  rpy = [ 3.14159, 0, -1.5708]
+  axis = [0, 0, 0]
+  angle_min = 0
+  angle_max = 0
+  angle_default = 0
+
+[[joints]]
+  name = 'Effector2RightFinger'
+  type = 'fixed'
+  parent = 'L07.Effector'
+  child = 'L10.RightFinger'
+  xyz = [ 0, -0.030501, 0.070003, 0 ]
+  rpy = [ 0, 1.5708, 0]
+  axis = [0, 0, 0]
+  angle_min = 0
+  angle_max = 0
+  angle_default = 0
+
+[[joints]]
+  name = 'RightTip'
+  type = 'fixed'
+  parent = 'L10.RightFinger'
+  child = 'L11.RightFingerEnd'
+  xyz = [ -0.045637, 0.020423, 0 ]
+  rpy = [ 0, 0, 0]
+  axis = [0, 0, 0]
+  angle_min = 0
+  angle_max = 0
+  angle_default = 0
+
+[[joints]]
+  name = 'Effector2LeftFinger'
+  type = 'fixed'
+  parent = 'L07.Effector'
+  child = 'L08.LeftFinger'
+  xyz = [  0, 0.0305, 0.07003 ]
+  rpy = [ 0, 1.5708, 0]
+  axis = [0, 0, 0]
+  angle_min = 0
+  angle_max = 0
+  angle_default = 0
+
+[[joints]]
+  name = 'LeftTip'
+  type = 'fixed'
+  parent = 'L08.LeftFinger'
+  child = 'L09.LeftFingerEnd'
+  xyz = [ -0.045636, -0.020423,  0 ]
+  rpy = [ 0, 0, 0]
+  axis = [0, 0, 0]
+  angle_min = 0
+  angle_max = 0
+  angle_default = 0

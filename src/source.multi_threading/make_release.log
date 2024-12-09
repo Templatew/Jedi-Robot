@@ -1,0 +1,74 @@
+-- Found Git: /usr/bin/git (found version "2.43.0") 
+-- The CXX compiler identification is GNU 14.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Project: robot_kinematic, Version: 1.0, CommitId: 586ccbcfe731+3
+-- Fetching glm library
+[0mCMake Deprecation Warning at build/release/_deps/glm-src/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[0mCMake Deprecation Warning at build/release/_deps/glm-src/CMakeLists.txt:2 (cmake_policy):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+-- Fetching fmt library
+-- {fmt} version: 11.0.2
+-- Build type: Release
+-- Fetching toml11 library
+-- Performing Test TOML11_COMPILER_SUPPORTS_WALL
+-- Performing Test TOML11_COMPILER_SUPPORTS_WALL - Success
+-- Performing Test TOML11_COMPILER_SUPPORTS_WEXTRA
+-- Performing Test TOML11_COMPILER_SUPPORTS_WEXTRA - Success
+-- Performing Test TOML11_COMPILER_SUPPORTS_WPEDANTIC
+-- Performing Test TOML11_COMPILER_SUPPORTS_WPEDANTIC - Success
+-- Performing Test TOML11_COMPILER_SUPPORTS_WERROR
+-- Performing Test TOML11_COMPILER_SUPPORTS_WERROR - Success
+-- Performing Test TOML11_COMPILER_SUPPORTS_WSIGN_CONVERSION
+-- Performing Test TOML11_COMPILER_SUPPORTS_WSIGN_CONVERSION - Success
+-- Performing Test TOML11_COMPILER_SUPPORTS_WCONVERSION
+-- Performing Test TOML11_COMPILER_SUPPORTS_WCONVERSION - Success
+-- Performing Test TOML11_COMPILER_SUPPORTS_WDUPLICATED_COND
+-- Performing Test TOML11_COMPILER_SUPPORTS_WDUPLICATED_COND - Success
+-- Performing Test TOML11_COMPILER_SUPPORTS_WDUPLICATED_BRANCHES
+-- Performing Test TOML11_COMPILER_SUPPORTS_WDUPLICATED_BRANCHES - Success
+-- Performing Test TOML11_COMPILER_SUPPORTS_WLOGICAL_OP
+-- Performing Test TOML11_COMPILER_SUPPORTS_WLOGICAL_OP - Success
+-- Performing Test TOML11_COMPILER_SUPPORTS_WDOUBLE_PROMOTION
+-- Performing Test TOML11_COMPILER_SUPPORTS_WDOUBLE_PROMOTION - Success
+-- Performing Test TOML11_COMPILER_SUPPORTS_WRANGE_LOOP_ANALYSIS
+-- Performing Test TOML11_COMPILER_SUPPORTS_WRANGE_LOOP_ANALYSIS - Failed
+-- Performing Test TOML11_COMPILER_SUPPORTS_WUNDEF
+-- Performing Test TOML11_COMPILER_SUPPORTS_WUNDEF - Success
+-- Performing Test TOML11_COMPILER_SUPPORTS_WSHADOW
+-- Performing Test TOML11_COMPILER_SUPPORTS_WSHADOW - Success
+-- Current build type is : Release
+-- Configuring done (179.5s)
+-- Generating done (1.8s)
+-- Build files have been written to: /mnt/d/usr/training/C++/labs/inverse-kinematic/project2_student/source.v2/build/release
+[  8%] [32mBuilding CXX object _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o[0m
+[ 16%] [32mBuilding CXX object _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o[0m
+[ 25%] [32m[1mLinking CXX static library libfmt.a[0m
+[ 25%] Built target fmt
+[ 33%] [32mBuilding CXX object src/CMakeFiles/robot_kinematic.dir/glm_util.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/CMakeFiles/robot_kinematic.dir/facet.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/CMakeFiles/robot_kinematic.dir/stlmesh.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/CMakeFiles/robot_kinematic.dir/joint.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/CMakeFiles/robot_kinematic.dir/link.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/CMakeFiles/robot_kinematic.dir/poses.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/CMakeFiles/robot_kinematic.dir/robot.cpp.o[0m
+[ 91%] [32mBuilding CXX object src/CMakeFiles/robot_kinematic.dir/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable robot_kinematic[0m
+[100%] Built target robot_kinematic
+[100%] Target ./robot_kinematic is ready

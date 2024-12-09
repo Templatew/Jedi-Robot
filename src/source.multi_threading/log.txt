@@ -1,0 +1,71 @@
+################################################################################
+##                                                                            ##
+##            Forward and Inverse Kinematic (Release version 1.0)             ##
+##    Compiled on Sun Dec  8 16:00:10 2024 from source ID 129f65eb44a7+11     ##
+##                                                                            ##
+################################################################################
+2024-12-08T15:00:30GMT [INFO]  Parsing config file config.toml
+2024-12-08T15:00:30GMT [INFO]  Creating robot Kinova Gen3 6DF with vision
+2024-12-08T15:00:30GMT [INFO]  Parsing binary STL file '.../base_link.stl' with 209784 bytes
+2024-12-08T15:00:30GMT [INFO]  Mesh 'L00.Base' loaded in 1 ms with 2,126 vertices and 4,194 facets
+2024-12-08T15:00:30GMT [INFO]  Parsing binary STL file '.../shoulder_link.stl' with 476984 bytes
+2024-12-08T15:00:30GMT [INFO]  Mesh 'L01.Shoulder' loaded in 3 ms with 4,793 vertices and 9,538 facets
+2024-12-08T15:00:30GMT [INFO]  Parsing binary STL file '.../bicep_link.stl' with 783384 bytes
+2024-12-08T15:00:30GMT [INFO]  Mesh 'L02.Bicep' loaded in 5 ms with 7,845 vertices and 15,666 facets
+2024-12-08T15:00:30GMT [INFO]  Parsing binary STL file '.../forearm_link.stl' with 456284 bytes
+2024-12-08T15:00:30GMT [INFO]  Mesh 'L03.Forearm' loaded in 3 ms with 4,593 vertices and 9,124 facets
+2024-12-08T15:00:30GMT [INFO]  Parsing binary STL file '.../spherical_wrist_1_link.stl' with 546484 bytes
+2024-12-08T15:00:30GMT [INFO]  Mesh 'L04.Wrist1' loaded in 3 ms with 5,496 vertices and 10,928 facets
+2024-12-08T15:00:30GMT [INFO]  Parsing binary STL file '.../spherical_wrist_2_link.stl' with 516984 bytes
+2024-12-08T15:00:30GMT [INFO]  Mesh 'L05.Wrist2' loaded in 3 ms with 5,173 vertices and 10,338 facets
+2024-12-08T15:00:30GMT [INFO]  Parsing binary STL file '.../bracelet_with_vision_link.stl' with 2636684 bytes
+2024-12-08T15:00:30GMT [INFO]  Mesh 'L06.Camera' loaded in 18 ms with 25,945 vertices and 52,732 facets
+2024-12-08T15:00:30GMT [INFO]  Parsing binary STL file '.../gripper_base_link.stl' with 1277984 bytes
+2024-12-08T15:00:30GMT [INFO]  Mesh 'L07.Effector' loaded in 9 ms with 12,707 vertices and 25,558 facets
+2024-12-08T15:00:30GMT [INFO]  Parsing binary STL file '.../left_finger_prox_link.stl' with 865584 bytes
+2024-12-08T15:00:30GMT [INFO]  Mesh 'L08.LeftFinger' loaded in 6 ms with 8,655 vertices and 17,310 facets
+2024-12-08T15:00:30GMT [INFO]  Parsing binary STL file '.../left_finger_dist_link.stl' with 654484 bytes
+2024-12-08T15:00:30GMT [INFO]  Mesh 'L09.LeftFingerEnd' loaded in 4 ms with 6,546 vertices and 13,088 facets
+2024-12-08T15:00:30GMT [INFO]  Parsing binary STL file '.../right_finger_prox_link.stl' with 866584 bytes
+2024-12-08T15:00:30GMT [INFO]  Mesh 'L10.RightFinger' loaded in 5 ms with 8,665 vertices and 17,330 facets
+2024-12-08T15:00:30GMT [INFO]  Parsing binary STL file '.../right_finger_dist_link.stl' with 654484 bytes
+2024-12-08T15:00:30GMT [INFO]  Mesh 'L11.RightFingerEnd' loaded in 3 ms with 6,546 vertices and 13,088 facets
+2024-12-08T15:00:30GMT [INFO]  Robots creation time: 108 ms
+2024-12-08T15:00:30GMT [INFO]  ---------------------------------
+2024-12-08T15:00:30GMT [INFO]  --   Start Forward Kinematic   --
+2024-12-08T15:00:30GMT [INFO]  ---------------------------------
+2024-12-08T15:00:30GMT [INFO]  ---------------------------------
+2024-12-08T15:00:30GMT [INFO]  Compute forward kinematic with angles -70,-50,90,0,-50,-90
+2024-12-08T15:00:30GMT [INFO]  Target position (x, y, z) = (-0.23507285, -0.64191204, 0.30754)
+2024-12-08T15:00:30GMT [INFO]  Target rotation (r, p, y) = (0, 90, -109.99959)
+Target Transform = {
+  {          0,      0.9397,    -0.34201,    -0.23507}
+  {          0,    -0.34201,     -0.9397,    -0.64191}
+  {         -1,           0,           0,     0.30754}
+  {          0,           0,           0,           1}
+}
+2024-12-08T15:00:30GMT [INFO]  ---------------------------------
+2024-12-08T15:00:30GMT [INFO]  --   Start Inverse Kinematic   --
+2024-12-08T15:00:30GMT [INFO]  ---------------------------------
+2024-12-08T15:00:30GMT [INFO]  Using seed 3809487182
+2024-12-08T15:00:30GMT [INFO]  Target position is (0.302,-0.294,0.486)
+2024-12-08T15:00:30GMT [INFO]  Target rotation is (0,90,90)
+2024-12-08T15:00:30GMT [INFO]  Distance threshold: 0.01
+2024-12-08T15:00:30GMT [INFO]  Angle resolution bits: 16
+2024-12-08T15:00:30GMT [INFO]  ---------------------------------
+2024-12-08T15:00:30GMT [INFO]  --           Threads           --
+2024-12-08T15:00:30GMT [INFO]  ---------------------------------
+2024-12-08T15:00:30GMT [INFO]  Number of threads: 32
+2024-12-08T15:00:30GMT [INFO]  Thread  0 succeeded, distance: 0.009985124
+2024-12-08T15:00:30GMT [INFO]  ---------------------------------
+2024-12-08T15:00:30GMT [INFO]  --           Results           --
+2024-12-08T15:00:30GMT [INFO]  ---------------------------------
+2024-12-08T15:00:30GMT [INFO]  Reached Targert true
+2024-12-08T15:00:30GMT [INFO]  Final distance: 0.009985124
+2024-12-08T15:00:30GMT [INFO]  Elapsed time: 16 ms
+2024-12-08T15:00:30GMT [INFO]  Joint angles are (-123.01,-101.173,-73.3018,37.122,-112.076,106.373)
+2024-12-08T15:00:30GMT [INFO]  ---------------------------------
+2024-12-08T15:00:30GMT [INFO]  --    Write Blender Script     --
+2024-12-08T15:00:30GMT [INFO]  ---------------------------------
+2024-12-08T15:00:30GMT [INFO]  Generate blender script to file my_script.py
+2024-12-08T15:00:30GMT [INFO]  Script file generated with 191 poses
