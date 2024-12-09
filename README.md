@@ -8,7 +8,7 @@
 -   **This project was completed by:**
 
     -   [CAZAUBON Lorenz *ROB4*](https://github.com/Templatew): **C++** 
-    -   PERDREAU Robin *ROB4*: **Blender**
+    -   [PERDREAU Robin *ROB4*](https://github.com/BlackJackGeary83): **Blender**
     -   Extra Help:
         -   KOMARYAN Vahan *ROB4*
         -   LEROY Loïc *ROB4*
