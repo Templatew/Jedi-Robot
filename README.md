@@ -23,9 +23,10 @@
   2. **How it Works**
   3. **Renderings**
 
-- **Sneak Peek of the Renderings ;)**
 
-![PREVIEW](03.png)
+
+https://github.com/user-attachments/assets/cf32a5db-e51c-4a4c-9eff-e2cbee72a5e3
+
 
 
 ## 1. Testing
@@ -90,7 +91,7 @@
 
 3. In Blender
 
-    ![FK](02.png)
+    ![02](https://github.com/user-attachments/assets/01a4160b-1b9a-4db7-b353-e26ca908e71a)
 
 
 ### Inverse Kinematic
@@ -147,7 +148,7 @@
 
 3. In Blender
 
-    ![IK](04.png)
+    ![04](https://github.com/user-attachments/assets/c37497b1-0c42-4939-b227-055596f305c4)
 
 
 
@@ -168,7 +169,8 @@ To test the collision detection with the ground we ran the same IK with and with
     2024-12-08T21:46:50GMT [INFO]  Joint angles are (24.2631,89.5963,-105.149,-71.0075,114.124,75.3002)
     ```
 
-    ![without](05.png)
+    ![05](https://github.com/user-attachments/assets/2f7ecead-5a99-454b-9eec-d5106b1b6f2c)
+
 
 - **With**
 
@@ -183,7 +185,7 @@ To test the collision detection with the ground we ran the same IK with and with
     2024-12-08T21:43:34GMT [INFO]  Joint angles are (22.2126,80.3433,-112.476,-70.9084,97.0316,77.2117)
     ```
 
-    ![with](06.png)
+    ![06](https://github.com/user-attachments/assets/be3cbccc-aac1-472d-bd15-ea2e38c37a9d)
 
 ## 2. How it Works
 
