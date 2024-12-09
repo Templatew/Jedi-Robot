@@ -224,7 +224,7 @@ To test the collision detection with the ground we ran the same IK with and with
 ## 3. Renderings
 
 **Check the animated version here :**
-![Animation Render](https://www.youtube.com/watch?v=daHiqhC2Z_U)
+[Animation Render](https://www.youtube.com/watch?v=daHiqhC2Z_U)
 
 ![render_02](https://github.com/user-attachments/assets/98135ffc-5b31-45f1-8ad8-38d9419b5d3d)
 
