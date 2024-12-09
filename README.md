@@ -7,7 +7,7 @@
 
 -   **This project was completed by:**
 
-    -   [CAZAUBON Lorenz *ROB4*](https://github.com/Templatew) **C++** 
+    -   [CAZAUBON Lorenz *ROB4*](https://github.com/Templatew): **C++** 
     -   PERDREAU Robin *ROB4*: **Blender**
     -   Extra Help:
         -   KOMARYAN Vahan *ROB4*
