@@ -219,7 +219,6 @@ To test the collision detection with the ground we ran the same IK with and with
     - Save the pose of the robot.
     - and move by another step, and so on.
 
-![render_02](https://github.com/user-attachments/assets/4d5c870e-5f18-47ed-8134-fb73697b0463)
 
 
 ## 3. Renderings
