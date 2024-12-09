@@ -7,11 +7,12 @@
 
 -   **This project was completed by:**
 
-    -   CAZAUBON Lorenz *ROB4* C++
-    -   KOMARYAN Vahan *ROB4*
-    -   LEROY Loïc *ROB4*
-    -   MAUVOISIN Paul *ROB4*
-    -   PERDREAU Robin *ROB4* Blender
+    -   **CAZAUBON Lorenz *ROB4* C++**
+    -   **PERDREAU Robin *ROB4* Blender**
+    -   Extra Help:
+        -   KOMARYAN Vahan *ROB4*
+        -   LEROY Loïc *ROB4*
+        -   MAUVOISIN Paul *ROB4*
 
 -   **Software Versions:**
     - **Blender: *4.3.0***
