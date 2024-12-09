@@ -7,8 +7,8 @@
 
 -   **This project was completed by:**
 
-    -   **CAZAUBON Lorenz *ROB4* C++**
-    -   **PERDREAU Robin *ROB4* Blender**
+    -   CAZAUBON Lorenz *ROB4* **C++**
+    -   PERDREAU Robin *ROB4*: **Blender**
     -   Extra Help:
         -   KOMARYAN Vahan *ROB4*
         -   LEROY Loïc *ROB4*
