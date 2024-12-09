@@ -23,7 +23,7 @@
   2. **How it Works**
   3. **Renderings**
 
-![Uploading render_01.jpg…]()
+![render_01](https://github.com/user-attachments/assets/6d2d2e75-5785-4c16-be32-74f7a1948a17)
 
 https://github.com/user-attachments/assets/cf32a5db-e51c-4a4c-9eff-e2cbee72a5e3
 
@@ -218,6 +218,7 @@ To test the collision detection with the ground we ran the same IK with and with
     - Save the pose of the robot.
     - and move by another step, and so on.
 
+![render_02](https://github.com/user-attachments/assets/4d5c870e-5f18-47ed-8134-fb73697b0463)
 
 
 ## 3. Renderings
@@ -225,6 +226,11 @@ To test the collision detection with the ground we ran the same IK with and with
 **Check the animated version here :**
 [Animation Render](https://www.youtube.com/watch?v=daHiqhC2Z_U)
 
-![Render 1 - 8k](02_.png)
+![render_02](https://github.com/user-attachments/assets/98135ffc-5b31-45f1-8ad8-38d9419b5d3d)
+
+![render_01](https://github.com/user-attachments/assets/c8eb1731-62f4-4b7e-b194-9481d63761aa)
+
+
+
 
 ![Render 2 - 8k](render_01-1.png)
