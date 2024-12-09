@@ -3,7 +3,7 @@
 
 ## Overview
 
--   **The goal of this project was to write the two methods `forward_kinematic` and `inverse_kinematic` to move a **6DOF Robot in blender** according to our inputs.**
+-   **The goal of this project was to write the code to move a **6DOF Robot in blender** according to our inputs.**
 
 -   **This project was completed by:**
 
