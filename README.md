@@ -8,7 +8,7 @@
 -   **This project was completed by:**
 
     -   [CAZAUBON Lorenz *ROB4*](https://github.com/Templatew): `**C++**`
-    -   [PERDREAU Robin *ROB4*](https://github.com/BlackJackGeary83): `**Blender**`
+    -   [PERDREAU Robin *ROB4*](https://github.com/BlackJackGeary83): **`Blender`**
     -   Extra Help:
         -   _[KOMARYAN Vahan *ROB4*](https://github.com/Variom)_
         -   _[LEROY Loïc *ROB4*](https://github.com/Loic-LEROY/Ad-Astra)_
