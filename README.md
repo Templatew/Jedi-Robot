@@ -238,6 +238,6 @@ To test the collision detection with the ground we ran the same IK with and with
 ![render_01](https://github.com/user-attachments/assets/c8eb1731-62f4-4b7e-b194-9481d63761aa)
 
 
-## 4. Dev Gallery
+## 4. Dev Progress
 
 
