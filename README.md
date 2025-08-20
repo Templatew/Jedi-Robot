@@ -240,4 +240,11 @@ To test the collision detection with the ground we ran the same IK with and with
 
 ## 4. Dev Progress
 
+[Capture vidéo du 05-12-2024 22_16_59.webm](https://github.com/user-attachments/assets/be3810cd-85f6-49fd-bb2b-5c7101a2e7e0)
+
+
+https://github.com/user-attachments/assets/94ab53ab-5d87-49df-90ef-d7af58b395ee
+
+[Capture vidéo du 04-12-2024 21_36_35.webm](https://github.com/user-attachments/assets/ee6b97f1-3a03-4248-bade-2ce062305d8c)
+
 
