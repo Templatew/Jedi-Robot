@@ -9,10 +9,6 @@
 
     -   [CAZAUBON Lorenz *ROB4*](https://github.com/Templatew): **`C++`**
     -   [PERDREAU Robin *ROB4*](https://github.com/BlackJackGeary83): **`Blender`**
-    -   Extra Help:
-        -   _[KOMARYAN Vahan *ROB4*](https://github.com/Variom)_
-        -   _[LEROY Loïc *ROB4*](https://github.com/Loic-LEROY/Ad-Astra)_
-        -   _[MAUVOISIN Paul *ROB4*](https://github.com/Poblit0)_
 
 -   **Software Versions:**
     - **Blender: *4.3.0***
